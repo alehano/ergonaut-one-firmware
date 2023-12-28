@@ -48,9 +48,9 @@
 
         raise_layer {
             bindings = <
-&mt LGUI KP_NUM  &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &mt UNDERSCORE KP_MINUS  &kp ESCAPE     &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &kp SLCK         &kp CLCK
-&mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &mt KP_EQUAL KP_PLUS     &kp BACKSPACE  &kp LEFT     &kp DOWN      &kp RIGHT      &kp INS          &mt RCTRL K_APP
-&kp LALT         &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT               &kp ENTER      &kp HOME     &trans        &kp END        &kp PAUSE_BREAK  &kp RALT
+&mt LGUI KP_NUM  &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &mt UNDERSCORE KP_MINUS  &kp ESCAPE     &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &kp PAGE_UP    &kp PRINTSCREEN
+&mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &mt KP_EQUAL KP_PLUS     &kp BACKSPACE  &kp LEFT     &kp DOWN      &kp RIGHT      &kp PAGE_DOWN  &mt RCTRL K_APP
+&kp LALT         &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT               &kp ENTER      &kp HOME     &trans        &kp END        &trans         &kp RALT
                                              &trans     &trans     &trans                   &trans         &trans       &trans
             >;
         };
