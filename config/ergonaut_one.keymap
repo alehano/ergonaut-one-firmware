@@ -27,6 +27,11 @@
 
     combos {
         compatible = "zmk,combos";
+
+        switch_lang {
+            bindings = <&switch_lang>;
+            key-positions = <38 39>;
+        };
     };
 
     macros {
@@ -56,6 +61,13 @@
             #binding-cells = <0>;
             bindings = <&kp LG(RIGHT)>;
             label = "LINE_END";
+        };
+
+        switch_lang: switch_lang {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(SPACE)>;
+            label = "SWITCH_LANG";
         };
     };
 
