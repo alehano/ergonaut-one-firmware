@@ -32,6 +32,11 @@
             bindings = <&switch_lang>;
             key-positions = <38 39>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 12>;
+        };
     };
 
     macros {
