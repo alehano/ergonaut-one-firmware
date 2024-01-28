@@ -27,11 +27,13 @@
         switch_lang {
             bindings = <&switch_lang>;
             key-positions = <38 39>;
+            timeout-ms = <200>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <0 12>;
+            timeout-ms = <200>;
         };
     };
 
