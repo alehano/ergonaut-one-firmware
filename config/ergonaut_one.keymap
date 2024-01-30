@@ -27,13 +27,13 @@
         switch_lang {
             bindings = <&switch_lang>;
             key-positions = <38 39>;
-            timeout-ms = <200>;
+            timeout-ms = <300>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <0 12>;
-            timeout-ms = <200>;
+            timeout-ms = <300>;
         };
     };
 
@@ -103,7 +103,7 @@
         lower_layer {
             bindings = <
 &kp F1                  &kp F2    &kp F3  &kp F4    &kp F5    &kp F6     &kp F7     &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
-&kp PLUS                &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &mt UNDERSCORE KP_MINUS
+&kp PLUS                &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &kp MINUS
 &mt LEFT_CONTROL EQUAL  &kp N1    &kp N2  &kp N3    &kp N4    &kp N5     &kp N6     &kp N7    &kp N8    &kp N9    &kp N0    &kp UNDER
                                           &trans    &trans    &trans     &trans     &trans    &trans
             >;
