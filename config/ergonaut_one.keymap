@@ -7,10 +7,7 @@
 #define RSE 2
 #define ADJ 3
 
-&lt {
-    quick-tap-ms = <100>;
-    tapping-term-ms = <100>;
-};
+&lt { quick-tap-ms = <100>; };
 
 &mt { quick-tap-ms = <100>; };
 
