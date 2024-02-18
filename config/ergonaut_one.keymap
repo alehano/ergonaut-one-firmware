@@ -7,7 +7,10 @@
 #define RSE 2
 #define ADJ 3
 
-&lt { quick-tap-ms = <100>; };
+&lt {
+    quick-tap-ms = <100>;
+    flavor = "balanced";
+};
 
 &mt { quick-tap-ms = <100>; };
 
