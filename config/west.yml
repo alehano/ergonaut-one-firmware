@@ -1,11 +1,21 @@
+# config with mouse support
+# https://t.me/ergonautkb_chat/6046/12686
+# https://github.com/idefant/zmk-config/blob/master/config/west.yml
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: urob
+      url-base: https://github.com/urob
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
+    - name: dhruvinsh
+      url-base: https://github.com/dhruvinsh
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: petejohanson
+      revision: feat/pointers-move-scroll
       import: app/west.yml
+    - name: zmk-tri-state
+      remote: dhruvinsh
+      revision: main
   self:
     path: config
